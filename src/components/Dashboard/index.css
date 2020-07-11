@@ -1,0 +1,12 @@
+logo {
+    width: 60px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.3);
+    margin: 16px 28px 16px 0;
+    float: left;
+}
+
+.site-layout-background {
+    background: #fff;
+    padding-top: 100px;
+}

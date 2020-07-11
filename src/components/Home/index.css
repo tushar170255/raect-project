@@ -1,0 +1,75 @@
+.site-layout-content {
+    background: #fff;
+    padding: 24px;
+    min-height: 280px;
+  }
+  .ant-layout-content {
+    -ms-flex: auto;
+    flex: auto;
+    min-height: 0;
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.vAioeE6tOgXBf8PvoakcWwHaFi&pid=Api&P=0&w=226&h=170);}
+
+.ant-menu-dark.ant-menu-horizontal {
+  border-bottom: 0;
+  background-color: #05458a;
+}
+
+.ant-layout-header {
+  height: 95px;
+  padding: 0 50px;
+  
+  line-height: 95px;
+  background-color: #05458a;
+}
+.logos {
+  vertical-align: middle;
+  border-style: none;
+  height: 100px;
+  width: 110px;
+  border-radius:50%;
+}
+
+.ant-breadcrumb {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-variant: tabular-nums;
+  line-height: -50.4285;
+  list-style: none;
+  line-height: 2.85;
+  -webkit-font-feature-settings: 'tnum';
+  font-feature-settings: 'tnum', "tnum";
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 14px;
+}
+  .site-layout-content {
+    background: #fff;
+    padding: 24px;
+    min-height: 565px;}
+  .logo {
+    width: 120px;
+    height: 31px;
+    background:#05458a ;
+    margin: 16px 24px 16px 0;
+    float: left;
+  }
+    [data-theme="dark"] .site-layout-content {
+      background: #141414;
+    }
+    [data-theme="dark"] .logo {
+      background: rgba(255,255,255,0.3);
+    }
+  
+    .ant-card-cover {
+      margin-right: -1px;
+      margin-left: -1px;
+      background-color: #bb1515;
+      color: #bb1515;
+  }
+  .ant-card-cover img {
+    border-radius: 50%;
+    background-color: #d89191;
+    height:250px;
+}
