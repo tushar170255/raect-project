@@ -2,16 +2,19 @@
     background: #fff;
     padding: 24px;
     min-height: 280px;
+    padding-top: 10%;
+    
   }
   .ant-layout-content {
     -ms-flex: auto;
     flex: auto;
     min-height: 0;
-    background-image: url(https://tse2.mm.bing.net/th?id=OIP.vAioeE6tOgXBf8PvoakcWwHaFi&pid=Api&P=0&w=226&h=170);}
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.vAioeE6tOgXBf8PvoakcWwHaFi&pid=Api&P=0&w=226&h=170);
+  }
 
 .ant-menu-dark.ant-menu-horizontal {
   border-bottom: 0;
-  background-color: #05458a;
+  background-color: #021121;
 }
 
 .ant-layout-header {
@@ -19,7 +22,7 @@
   padding: 0 50px;
   
   line-height: 95px;
-  background-color: #05458a;
+  background-color: #021121;
 }
 .logos {
   vertical-align: middle;
@@ -44,17 +47,6 @@
   color: rgba(0, 0, 0, 0.45);
   font-size: 14px;
 }
-  .site-layout-content {
-    background: #fff;
-    padding: 24px;
-    min-height: 565px;}
-  .logo {
-    width: 120px;
-    height: 31px;
-    background:#05458a ;
-    margin: 16px 24px 16px 0;
-    float: left;
-  }
     [data-theme="dark"] .site-layout-content {
       background: #141414;
     }
