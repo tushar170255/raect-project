@@ -25,7 +25,7 @@ class HomePage extends React.Component {
 		return (
 			<Layout className="layout" >
 				<GenericHeader { ...this.props }/>
-				<Content style={{ padding: '0 50px', height: '90vh' }}>
+				<Content style={{ padding: '0 50px', height: '90vh' }} className='layoutContent'>
 					<div className="site-layout-content" style={{ height: '90vh', justifyContent: 'center' }} >
 						<Row gutter={24} style={{ justify: 'space-around' }}>
 							<Col span={8} style={{align:'center'}}>

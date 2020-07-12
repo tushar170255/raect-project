@@ -5,7 +5,7 @@
     padding-top: 10%;
     
   }
-  .ant-layout-content {
+  .layoutContent {
     -ms-flex: auto;
     flex: auto;
     min-height: 0;

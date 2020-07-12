@@ -22,19 +22,22 @@ class GenericSider extends React.Component {
 	}
 
 	render () {
+		const { defaultSelectedKey = '1' } = this.props;
 		return (
-			<Sider collapsible collapsed = { this.state.isCollapsed } onCollapse = { this.onCollapse } width={200} className="site-layout-background"
+			<Sider collapsible collapsed = { this.state.isCollapsed } onCollapse = { this.onCollapse } width={200}
 				style = {{
 					overflow: 'auto',
 					position: 'fixed',
 					left: 0,
-					height: '100vh'
+					height: '100vh',
+					zIndex: 1,
+					top: '100px',
 				}}
 			>
 				<Menu
 					theme = 'dark'
 					mode="inline"
-					defaultSelectedKeys={['1']}
+					defaultSelectedKeys={[defaultSelectedKey]}
 					style={{ height: '100%', borderRight: 0, alignContent: 'center' }}
 				>
 					<Menu.Item key="1" icon={ <HomeOutlined style={{ fontSize: 23 }}/> }>Overview</Menu.Item>
